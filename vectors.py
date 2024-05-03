@@ -1,6 +1,4 @@
 import random
-
-
 class Vector:
     # Initialize a vector object with elements and a length
     def __init__(self, lst):
