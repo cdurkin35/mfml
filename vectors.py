@@ -16,10 +16,10 @@ class Vector:
 
     # Create random vector of length n
     @staticmethod
-    def rand(n, range=[0, 1]):
+    def rand(n, rand_range=(0, 1)):
         values = []
         for i in range(n):
-            values.append(random.uniform(range[0], range[1]))
+            values.append(random.uniform(rand_range[0], rand_range[1]))
         return Vector(values)
 
     # Convert vector to string for easy readability
